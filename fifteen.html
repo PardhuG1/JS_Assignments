@@ -1,0 +1,26 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var num=prompt("enter the three digit number:");
+            var addition=0;
+            flag = num;
+            while(num>0){
+                remainder = num%10;
+			    addition = addition + remainder*remainder*remainder;
+			    number = parseInt(num/10);
+            }
+            if(addition == flag)
+            {
+                document.write("this is a amstrong number")
+            }
+            else{
+                document.write("this is not a amstrong number")
+            }
+
+
+        </script>
+    </body>
+</html>
