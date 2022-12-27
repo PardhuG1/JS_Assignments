@@ -10,8 +10,8 @@ while(org>0){
     org=parseInt(org/10)//15
 }
 if(addition==num){
-    console.log("amstrong")
+    console.log(num,"is a amstrong")
 }
 else{
-    console.log("not amstrong")
+    console.log(num,"is not amstrong")
 }

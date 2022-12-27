@@ -4,16 +4,16 @@
     </head>
     <body>
         <script>
-            const number = parseInt(prompt('Enter the number of terms: '));
-            let n1 = 0, n2 = 1, nextTerm;
+            const number = parseInt(prompt('Enter the number of terms: '));//5
+            let n1 = 0, n2 = 1;
 
             document.write('Fibonacci Series:');
 
-            for (let i = 1; i <= number; i++) {
-                console.log(n1);
-                nextTerm = n1 + n2;
-                n1 = n2;
-                n2 = nextTerm;
+            for (let i = 1; i <= number; i++) {//1,2,3,4,5
+                console.log(n1);//0,1,1,2,3
+                nextTerm = n1 + n2;//1,2,3,5,8
+                n1 = n2;//1,1,2,3,5
+                n2 = nextTerm;//1,2,3,5,8
             }
         </script>
     </body>
