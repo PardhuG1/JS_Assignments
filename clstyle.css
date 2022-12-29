@@ -51,4 +51,7 @@ button{
 }
 .equal{
     width: 115px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: -5px -5px 12px white;
 }

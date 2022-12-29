@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: blanchedalmond;
+}
+.container{
+    width: 940px;
+    margin: 50px auto 0;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.description{
+    margin-right: 50px;
+}
+.description{
+    margin: 50px 0 10px 0;
+    font-weight: 300;
+}
+.description p{
+    font-size: 15px;
+}
+.description span{
+    margin-top: 15px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 30px;
+    color: #353;
+}
+.description button{
+    font-size: 18px;
+    padding: 15px 50px;
+    margin-top: 40px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    color: burlywood;
+    box-shadow: 0 4px 6px 0 chocolate;
+}
+.description .buy{
+  background-color: blue;
+}
+.description .cart{
+    background-color: blue;
+    margin-left: 10px;
+}
+/*
+* {
+    box-sizing: border-box;
+  }
+  
+  .zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+*/
+
+
